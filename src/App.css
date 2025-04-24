@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://s0.smartresize.com/wallpaper/925/2/HD-wallpaper-airplane-aircrafts-clouds-sky-blue.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #000;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 2rem;
+}

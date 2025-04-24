@@ -1,0 +1,50 @@
+.reseña-lista {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.reseña-lista h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reseña-item {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.reseña-card {
+  background: white;
+  border-left: 6px solid #007bff; /* Borde azul a la izquierda */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reseña-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.reseña-card p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.reseña-card strong {
+  color: #007bff;
+  font-weight: 600;
+}
+
+
+
+
+  

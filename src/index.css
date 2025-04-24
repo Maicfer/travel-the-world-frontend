@@ -1,0 +1,30 @@
+/* Estilos base que ya tenías */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Nuevos estilos para el fondo */
+  background-image: url('https://s0.smartresize.com/wallpaper/925/2/HD-wallpaper-airplane-aircrafts-clouds-sky-blue.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+}
+
+/* Contenedor raíz con fondo semitransparente */
+#root {
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Fuente para código (ya tenías esto) */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
