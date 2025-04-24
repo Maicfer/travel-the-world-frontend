@@ -13,6 +13,9 @@ const Navbar = () => {
   return (
     <nav style={{ display: "flex", justifyContent: "space-around", padding: "1rem", backgroundColor: "#f0f0f0" }}>
       <Link to="/">Inicio</Link>
+      <a href="https://tercerentrega-aiwn.onrender.com/" target="_blank" rel="noopener noreferrer">
+        Backend
+      </a>
       {!token ? (
         <>
           <Link to="/login">Iniciar sesión</Link>
